@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Storage.Entities
+namespace Infrastructure.Entities
 {
     public abstract class GuidIdentifiable
     {

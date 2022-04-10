@@ -5832,11 +5832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Storage/Storage.csproj",
-      "projectName": "Storage",
-      "projectPath": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Storage/Storage.csproj",
+      "projectUniqueName": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Infrastructure/Infrastructure.csproj",
+      "projectName": "Infrastructure",
+      "projectPath": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/home/sc222/.nuget/packages/",
-      "outputPath": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Storage/obj/",
+      "outputPath": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sc222/.nuget/NuGet/NuGet.Config"

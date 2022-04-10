@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Storage.Entities;
+using Infrastructure.Entities;
 
 namespace MultimarketStatistics.Models
 {

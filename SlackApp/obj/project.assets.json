@@ -2010,8 +2010,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Infrastructure": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Storage": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.8.0"
         },
         "compile": {
@@ -2021,7 +2021,7 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "Storage/1.0.0": {
+      "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2031,10 +2031,10 @@
           "morelinq": "3.3.2"
         },
         "compile": {
-          "bin/placeholder/Storage.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Storage.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         }
       }
     }
@@ -6752,10 +6752,10 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    "Storage/1.0.0": {
+    "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Storage/Storage.csproj",
-      "msbuildProject": "../Storage/Storage.csproj"
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Storage.Entities;
+﻿using Infrastructure.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace Storage
+namespace Infrastructure
 {
     public class StorageContext : DbContext
     {

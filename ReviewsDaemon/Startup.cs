@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Storage;
-using Storage.Repositories;
+using Infrastructure;
+using Infrastructure.Repositories;
 
 namespace ReviewsDaemon
 {

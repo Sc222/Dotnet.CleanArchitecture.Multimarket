@@ -7,8 +7,8 @@ using Domain.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MultimarketStatistics.Models;
-using Storage.Entities;
-using Version = Storage.Entities.Version;
+using Infrastructure.Entities;
+using Version = Infrastructure.Entities.Version;
 
 namespace MultimarketStatistics.Controllers
 {

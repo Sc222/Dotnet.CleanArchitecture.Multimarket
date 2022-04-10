@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Storage.Entities
+namespace Infrastructure.Entities
 {
     public class Locale
     {

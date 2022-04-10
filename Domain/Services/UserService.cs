@@ -3,8 +3,8 @@ using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using Storage.Entities;
-using Storage.Repositories;
+using Infrastructure.Entities;
+using Infrastructure.Repositories;
 using System.Linq;
 
 namespace Domain.Services

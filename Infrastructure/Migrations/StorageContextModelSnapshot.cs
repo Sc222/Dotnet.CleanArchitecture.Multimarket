@@ -2,18 +2,16 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Storage;
+using Infrastructure;
 
-namespace Storage.Migrations
+namespace Infrastructure.Migrations
 {
     [DbContext(typeof(StorageContext))]
-    [Migration("20210222191855_Clean")]
-    partial class Clean
+    partial class StorageContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,7 +19,7 @@ namespace Storage.Migrations
                 .HasAnnotation("ProductVersion", "3.1.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("Storage.Entities.App", b =>
+            modelBuilder.Entity("Infrastructure.Entities.App", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -56,7 +54,7 @@ namespace Storage.Migrations
                     b.ToTable("Apps");
                 });
 
-            modelBuilder.Entity("Storage.Entities.Locale", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Locale", b =>
                 {
                     b.Property<Guid>("AppId")
                         .HasColumnType("uuid");
@@ -69,7 +67,7 @@ namespace Storage.Migrations
                     b.ToTable("Locales");
                 });
 
-            modelBuilder.Entity("Storage.Entities.Notification", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Notification", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -104,7 +102,7 @@ namespace Storage.Migrations
                     b.ToTable("Notifications");
                 });
 
-            modelBuilder.Entity("Storage.Entities.Rating", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Rating", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -130,7 +128,7 @@ namespace Storage.Migrations
                     b.ToTable("Ratings");
                 });
 
-            modelBuilder.Entity("Storage.Entities.Review", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Review", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -174,7 +172,7 @@ namespace Storage.Migrations
                     b.ToTable("Reviews");
                 });
 
-            modelBuilder.Entity("Storage.Entities.User", b =>
+            modelBuilder.Entity("Infrastructure.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -205,7 +203,7 @@ namespace Storage.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Storage.Entities.Version", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Version", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -225,42 +223,42 @@ namespace Storage.Migrations
                     b.ToTable("Versions");
                 });
 
-            modelBuilder.Entity("Storage.Entities.App", b =>
+            modelBuilder.Entity("Infrastructure.Entities.App", b =>
                 {
-                    b.HasOne("Storage.Entities.User", "User")
+                    b.HasOne("Infrastructure.Entities.User", "User")
                         .WithMany()
                         .HasForeignKey("UserForeignKey")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Storage.Entities.Notification", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Notification", b =>
                 {
-                    b.HasOne("Storage.Entities.App", "App")
+                    b.HasOne("Infrastructure.Entities.App", "App")
                         .WithMany()
                         .HasForeignKey("AppForeignKey")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("Storage.Entities.User", "User")
+                    b.HasOne("Infrastructure.Entities.User", "User")
                         .WithMany()
                         .HasForeignKey("UserForeignKey")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Storage.Entities.Rating", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Rating", b =>
                 {
-                    b.HasOne("Storage.Entities.App", "App")
+                    b.HasOne("Infrastructure.Entities.App", "App")
                         .WithMany()
                         .HasForeignKey("AppForeignKey")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Storage.Entities.Review", b =>
+            modelBuilder.Entity("Infrastructure.Entities.Review", b =>
                 {
-                    b.HasOne("Storage.Entities.App", "App")
+                    b.HasOne("Infrastructure.Entities.App", "App")
                         .WithMany()
                         .HasForeignKey("AppForeignKey")
                         .OnDelete(DeleteBehavior.NoAction)

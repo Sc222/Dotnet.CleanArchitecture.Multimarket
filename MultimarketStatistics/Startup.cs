@@ -13,8 +13,8 @@ using MultimarketStatistics.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
-using Storage;
-using Storage.Repositories;
+using Infrastructure;
+using Infrastructure.Repositories;
 
 namespace MultimarketStatistics
 {

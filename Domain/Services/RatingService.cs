@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Storage.Entities;
-using Storage.Repositories;
+using Infrastructure.Entities;
+using Infrastructure.Repositories;
 
 namespace Domain.Services
 {

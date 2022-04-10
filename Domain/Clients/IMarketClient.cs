@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Storage.Entities;
+using Infrastructure.Entities;
 
 namespace Domain
 {

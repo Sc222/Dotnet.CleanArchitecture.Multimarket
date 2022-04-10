@@ -1,4 +1,4 @@
-﻿namespace Storage
+﻿namespace Infrastructure
 {
     public class ContextFactory
     {

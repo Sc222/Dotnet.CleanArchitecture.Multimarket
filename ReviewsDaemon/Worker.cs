@@ -7,9 +7,9 @@ using Domain.Services;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MoreLinq;
-using Storage.Entities;
-using Storage.Repositories;
-using Version = Storage.Entities.Version;
+using Infrastructure.Entities;
+using Infrastructure.Repositories;
+using Version = Infrastructure.Entities.Version;
 
 namespace ReviewsDaemon
 {

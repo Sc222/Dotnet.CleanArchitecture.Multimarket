@@ -1,4 +1,4 @@
-﻿namespace Storage.Entities
+﻿namespace Infrastructure.Entities
 {
     public class User : GuidIdentifiable
     {

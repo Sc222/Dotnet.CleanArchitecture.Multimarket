@@ -1,4 +1,4 @@
-﻿namespace Storage.Entities
+﻿namespace Infrastructure.Entities
 {
     public enum MarketType
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Storage.Entities
+namespace Infrastructure.Entities
 {
     public class App : GuidIdentifiable
     {

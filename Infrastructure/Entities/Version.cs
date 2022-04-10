@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Storage.Entities
+namespace Infrastructure.Entities
 {
     public class Version: GuidIdentifiable
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Storage.Entities;
+using Infrastructure.Entities;
 
 namespace Domain
 {

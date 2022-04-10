@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Storage.Entities
+namespace Infrastructure.Entities
 {
     public class Review : GuidIdentifiable
     {

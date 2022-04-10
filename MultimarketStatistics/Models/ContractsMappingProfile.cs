@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Storage.Entities;
+using Infrastructure.Entities;
 
 namespace MultimarketStatistics.Models
 {

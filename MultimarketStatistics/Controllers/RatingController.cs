@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MoreLinq;
 using MultimarketStatistics.Models;
-using Storage.Entities;
+using Infrastructure.Entities;
 
 namespace MultimarketStatistics.Controllers
 {

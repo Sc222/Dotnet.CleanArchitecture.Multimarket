@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Storage.Migrations
+namespace Infrastructure.Migrations
 {
     public partial class Clean : Migration
     {

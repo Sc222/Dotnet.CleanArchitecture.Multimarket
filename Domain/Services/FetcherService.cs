@@ -5,8 +5,8 @@ using Domain.Clients.AppGallery;
 using Domain.Clients.AppStore;
 using Domain.Clients.PlayMarket;
 using MoreLinq;
-using Storage.Entities;
-using Version = Storage.Entities.Version;
+using Infrastructure.Entities;
+using Version = Infrastructure.Entities.Version;
 
 namespace Domain.Services
 {

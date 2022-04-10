@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Storage.Entities;
-using Storage.Repositories;
-using Version = Storage.Entities.Version;
+using Infrastructure.Entities;
+using Infrastructure.Repositories;
+using Version = Infrastructure.Entities.Version;
 
 namespace Domain.Services
 {
