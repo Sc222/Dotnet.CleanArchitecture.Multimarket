@@ -2170,7 +2170,7 @@
           "lib/netstandard2.0/Vostok.Tracing.Extensions.dll": {}
         }
       },
-      "Domain/1.0.0": {
+      "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2179,10 +2179,10 @@
           "System.IdentityModel.Tokens.Jwt": "6.8.0"
         },
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Core.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -7152,10 +7152,10 @@
         "vostok.tracing.extensions.nuspec"
       ]
     },
-    "Domain/1.0.0": {
+    "Core/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     },
     "Infrastructure/1.0.0": {
       "type": "project",
@@ -7167,7 +7167,7 @@
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.0",
-      "Domain >= 1.0.0",
+      "Core >= 1.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
       "Newtonsoft.Json >= 12.0.3",
@@ -7201,8 +7201,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Domain/Domain.csproj": {
-              "projectPath": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Domain/Domain.csproj"
+            "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Core/Core.csproj": {
+              "projectPath": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Core/Core.csproj"
             },
             "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Infrastructure/Infrastructure.csproj": {
               "projectPath": "/home/sc222/Downloads/skb-lab-multimarket-statistics-master/MultimarketStatistics/Infrastructure/Infrastructure.csproj"

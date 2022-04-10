@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultimarketStatistics", "Mu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{EDCC961B-95B1-4CCA-BE5A-85B6ECE46D3A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{72A13ACC-D628-418D-8D5C-4AFC652C57B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{72A13ACC-D628-418D-8D5C-4AFC652C57B7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewsDaemon", "ReviewsDaemon\ReviewsDaemon.csproj", "{BE459EEB-2BE5-428E-BEF8-B732C08C1981}"
 EndProject

@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Domain.Services;
+using Core.Services;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MoreLinq;

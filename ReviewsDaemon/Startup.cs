@@ -1,7 +1,7 @@
-﻿using Domain.Clients.AppGallery;
-using Domain.Clients.AppStore;
-using Domain.Clients.PlayMarket;
-using Domain.Services;
+﻿using Core.Clients.AppGallery;
+using Core.Clients.AppStore;
+using Core.Clients.PlayMarket;
+using Core.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;

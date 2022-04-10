@@ -1,6 +1,6 @@
 ﻿using System;
 using AutoMapper;
-using Domain.Services;
+using Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MultimarketStatistics.Models;
